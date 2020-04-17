@@ -34,3 +34,11 @@ In the Jupyter Notebook furthers models can be found. Illustrating one model res
 
 ![](Model_Sample.png)
 ## The model is trained for 15 epochs and the maximum validation accuracy achieved is 65.83%
+
+## Results
+1. The model is trained with epochs of 15 initially but repeated training of the model in the running kernel makes the model overfit the data and could result in fake accuracies.
+2. With hyperparameter tuning, the model is improved by initialising with Xavier Glorot Initialization namely Xavier Uniform and Xavier Gaussian.
+3. It has been observed that the model performed with other loss functions and optimisers but could yield better results with appropriate batch size
+4. Meanwhile, it is also concluded that using different layers and adding more layers in the model would only increase the comkplexity but not improve the accuray unless an appropriate activation function is given.
+5. Later, the model is tuned with various epochs and batch_size to improve accuracy.
+6. Finally, the CNN gave the maximum accuracy of 63% with initial relu activation function and adam optimiser and no initialization and SparseCategoricalCrossEntropy as the best loss function.
