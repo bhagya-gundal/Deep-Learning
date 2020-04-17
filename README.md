@@ -23,7 +23,37 @@ The network architectures, no of layers, epochs and filter sizes were all change
 ## The CNN model:
 Parameters:
 
-Activation function = ReLU
-Loss function = SparseCategoricalCrossentropy()
-Optimizer = ADAM
+- Activation function = ReLU
 
+- Loss function = SparseCategoricalCrossentropy()
+
+- Optimizer = ADAM
+
+## MODEL SUMMARY - MODEL 1
+In the Jupyter Notebook furthers models can be found. Illustrating one model results below.
+Model: "sequential_12"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_35 (Conv2D)           (None, 30, 30, 32)        896       
+_________________________________________________________________
+max_pooling2d_23 (MaxPooling (None, 15, 15, 32)        0         
+_________________________________________________________________
+conv2d_36 (Conv2D)           (None, 13, 13, 64)        18496     
+_________________________________________________________________
+max_pooling2d_24 (MaxPooling (None, 6, 6, 64)          0         
+_________________________________________________________________
+conv2d_37 (Conv2D)           (None, 4, 4, 64)          36928     
+_________________________________________________________________
+flatten_12 (Flatten)         (None, 1024)              0         
+_________________________________________________________________
+dense_27 (Dense)             (None, 64)                65600     
+_________________________________________________________________
+dense_28 (Dense)             (None, 10)                650       
+=================================================================
+Total params: 122,570
+Trainable params: 122,570
+Non-trainable params: 0
+_________________________________________________________________
+
+## The model is trained for 15 epochs and the maximum validation accuracy achieved is 65.83%
