@@ -11,11 +11,19 @@ Cost Functions are changed, keeping all other hyperparameters constant
 ### PART D - Changing Epochs
 Epochs are changed, keeping all other hyperparameters constant
 
-### PART E - changing gradients
+### PART E - Changing Gradients
 Gradients are changed, keeping all other hyperparameters constant
 
-### PART F - changing intialization
+### PART F - Changing Intialization
 Initializations are changed, keeping all other hyperparameters constant
 
-### PART G - changing hyperparameters
+### PART G - Changing Hyperparameters
 The network architectures, no of layers, epochs and filter sizes were all changed during the course of the earlier training to understand the results and decide which is values of hyperoaramets are functioning better?
+
+## The CNN model:
+Parameters:
+
+Activation function = ReLU
+Loss function = SparseCategoricalCrossentropy()
+Optimizer = ADAM
+
