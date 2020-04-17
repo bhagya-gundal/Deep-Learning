@@ -43,3 +43,14 @@ In the Jupyter Notebook furthers models can be found. Illustrating one model res
 4. Meanwhile, it is also concluded that using different layers and adding more layers in the model would only increase the comkplexity but not improve the accuray unless an appropriate activation function is given.
 5. Later, the model is tuned with various epochs and batch_size to improve accuracy.
 6. Finally, the CNN gave the maximum accuracy of 63% with initial relu activation function and adam optimiser and no initialization and SparseCategoricalCrossEntropy as the best loss function.
+
+# CITATIONS
+References:
+
+[1] ADL (24 April 2018), "An intuitive guide to Convolutional Neural Networks" retrieved from https://www.freecodecamp.org/news/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050/
+[2] TensorFlow Tutorials,"Convolutional Neural Network (CNN)" retrieved from https://www.tensorflow.org/tutorials/images/cnn
+[3] Analytics Vidhya Courses, "Convolutional Neural Networks (CNN) from Scratch" retrieved from https://courses.analyticsvidhya.com/courses/take/convolutional-neural-networks-cnn-from-scratch/texts/10844923-what-is-a-neural-network
+[4] TensorFlow Core Documentation, "Module: tf.keras.initializers" retrieved from https://www.tensorflow.org/api_docs/python/tf/keras/initializers?version=nightly
+
+# CONTRIBUTIONS
+90% contributed by me, 10% derived from official documentation
